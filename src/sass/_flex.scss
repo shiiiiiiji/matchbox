@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.flex {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+// 垂直居中
+.flex-center {
+  align-items: center;
+}
+
+// 水平居中
+.flex-center-h {
+  justify-content: center;
+}
+
+// 横向排列
+.flex-row {
+  flex-direction: row;
+}
+
+// 纵向排列
+.flex-column {
+  flex-direction: column;
+}

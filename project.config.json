@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "matchbox",
   "description": "火柴盒",
-  "appid": "touristappid",
+  "appid": "wx6f138799f241f465",
   "setting": {
     "urlCheck": true,
     "es6": false,

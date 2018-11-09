@@ -53,7 +53,9 @@ const config = {
   defineConstants: {
   },
   copy: {
-     patterns: [
+    patterns: [
+      { from: 'src/components/libs', to: 'dist/components/libs' },
+      { from: 'src/assets/images', to: 'dist/assets/images' }
     ],
     options: {
     }

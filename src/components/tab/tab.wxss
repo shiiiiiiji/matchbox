@@ -1,0 +1,46 @@
+@import "/components/libs/weui/weui.wxss";
+/* 
+.weapp-tab .weui-navbar__item{
+  background: #f5f5f5;
+  color: #32b16c;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+}
+
+.weapp-tab .weui-bar__item_on{
+  color: #fff;
+  background: #32b16c;
+} */
+
+.weui-navbar {
+  border-bottom: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.weui-navbar__item {
+  position: relative;
+  top: 1px;
+  padding: 0;
+}
+
+.weui-navbar__title {
+  font-size: 36rpx;
+  color: #000;
+  text-align: center;
+}
+
+.weui-bar__border {
+  margin: 0 auto;
+  width: 80%;
+  height: 10rpx;
+  background-color: #ffbf47;
+  border-radius: 4rpx;
+}
+
+.weui-bar__item_on {
+  /* font-weight: bold; */
+}

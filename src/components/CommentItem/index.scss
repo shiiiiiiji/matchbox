@@ -1,0 +1,55 @@
+@import '../../sass/common';
+@import '../../sass/flex';
+
+.comment-item-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 30rpx;
+  border-bottom: 1rpx solid #ddd;
+
+  &.hover {
+    background-color: #ddd;
+  }
+
+  .comment-item__hd {
+    width: 100%;
+    height: 75rpx;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-info {
+      .user-name {
+        font-size: 28px;
+        color: rgba(0, 0, 0, 0.50);
+      }
+
+      .comment-time {
+        margin-left: 20rpx;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.30);
+      }
+    }
+
+    .like-wrapper {
+      font-size: 32rpx;
+      color: #ffbf47;
+
+      .num {
+        margin-right: 15rpx;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.50);
+      }
+    }
+  }
+
+  .comment-item__bd {
+    padding-bottom: 20rpx;
+    font-size: 0;
+
+    text {
+      font-size: 28rpx;
+      color: rgba(0, 0, 0, 0.80);
+    }
+  }
+}

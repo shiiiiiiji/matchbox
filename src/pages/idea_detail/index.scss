@@ -1,0 +1,77 @@
+@import '../../sass/flex';
+
+.idea-detail-wrapper {
+  width: 100%;
+
+  .top-holder {
+    width: 100%;
+    height: 1rpx;
+  }
+
+  .comment-list {
+    margin-top: 15rpx;
+    padding-bottom: 120rpx;
+
+    .comment__hd {
+      width: 100%;
+      background-color: #fff;
+      padding: 0 30rpx;
+      border-bottom: 1rpx solid #ddd;
+
+      text {
+        font-size: 28px;
+        line-height: 60rpx;
+        color: rgba(0, 0, 0, 0.80);
+      }
+    }
+
+    .comment__bd {
+      .last-tip {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        color: #aaa;
+        line-height: 40rpx;
+      }
+    }
+  }
+
+  .comment-area {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 115rpx;
+    padding: 20rpx 30rpx;
+    background-color: #fff;
+    align-items: center;
+    border-top: 1rpx solid #eee;
+
+    input {
+      height: 72rpx;
+      padding: 0 30rpx;
+      font-size: 28rpx;
+      line-height: 72rpx;
+      background-color: #EEEEEE;
+      border: 1px solid rgba(151, 151, 151, 0.30);
+      border-radius: 50px;
+    }
+
+    .input-placeholder {
+      color: rgba(0, 0, 0, 0.30);
+    }
+
+    .btn {
+      margin-left: 10rpx;
+      width: 100rpx;
+      height: 52rpx;
+      background-color: #FFBF47;
+      border-radius: 5px;
+      font-size: 28px;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 52rpx;
+    }
+  }
+}

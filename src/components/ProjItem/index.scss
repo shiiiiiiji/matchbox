@@ -39,6 +39,8 @@
         width: 100%;
         font-size: 28px;
         justify-content: space-between;
+        margin-top: 10rpx;
+        line-height: 1.6;
 
         .title {
           flex-basis: 300px;
@@ -72,6 +74,7 @@
       line-height: 52rpx;
       color: #fff;
       text-align: center;
+      align-self: center;
     }
 
     .proj-action-list {

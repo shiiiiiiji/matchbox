@@ -1,0 +1,97 @@
+@import '../../sass/flex';
+
+.issue-idea-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  .form-wrapper {
+    .form-item {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 30rpx;
+      color: rgba(0, 0, 0, 0.87);
+
+      &.idea-content-wrapper {
+        border-bottom: 1rpx solid #ddd;
+
+        .idea-content {
+          width: 100%;
+          font-size: 28rpx;
+          min-height: 320rpx;
+        }
+      }
+
+      &.idea-tag-wrapper{
+        border-bottom: 1rpx solid #ddd;
+        // padding: 25px;
+
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 32rpx;
+        .icon-wrapper{
+          display: inline-block;
+          margin-right: 10px;
+          width: 32px;
+          height: 32px;
+          // background-color: #FFBF47;
+          font-size: 32px;
+          color: #FFBF47;
+          text-align: center;
+          line-height: 32px;
+          // border-radius: 50%;
+          box-sizing: border-box;
+          padding-left: 1rpx;
+          &.arrow-icon{
+            color: rgba(0, 0, 0, 0.26);
+          }
+        }
+      }
+
+      &.idea-nickname-wrapper {
+        padding-bottom: 0;
+
+        label {
+          color: rgba(0, 0, 0, 0.87);
+          font-size: 32rpx;
+          .icon-wrapper{
+            display: inline-block;
+            margin-right: 10px;
+            width: 32px;
+            height: 32px;
+            // background-color: #FFBF47;
+            font-size: 32px;
+            color: #FFBF47;
+            text-align: center;
+            line-height: 32px;
+            // border-radius: 50%;
+            box-sizing: border-box;
+            padding-left: 1rpx;
+          }
+        }
+
+        .idea-nickname {
+          font-size: 28rpx;
+        }
+      }
+
+      &.tips-wrapper {
+        border-bottom: 1rpx solid #ddd;
+        // padding-top: 0;
+        font-size: 28rpx;
+        color: rgba(0, 0, 0, 0.30);
+        text-align: center;
+      }
+
+      &.button-wrapper {
+        button {
+          background-color: #FFBF47;
+        }
+      }
+    }
+
+    .input-placeholder {
+      font-size: 28rpx;
+      color: rgba(0, 0, 0, 0.30);
+    }
+  }
+}

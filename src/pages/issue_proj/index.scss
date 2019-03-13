@@ -1,0 +1,95 @@
+@import '../../sass/flex';
+
+page {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.issue-proj-wrapper {
+  width: 100%;
+  height: 100%;
+  // background-color: #fff;
+
+  .form-wrapper {
+    .form-item {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15rpx 30rpx;
+      font-size: 32px;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.87);
+
+      label {
+        flex: 0 0 7em;
+      }
+
+      button {
+        background-color: #FFBF47;
+      }
+
+      &.proj-pneed-text-wrapper {
+
+        .info {
+          font-size: 28rpx;
+          color: rgba(0, 0, 0, 0.30);
+        }
+      }
+
+
+      &.proj-tips-wrapper {
+        color: rgba(0, 0, 0, 0.80);
+        text-align: center;
+        padding: 50rpx 0;
+
+        .proj-tips {
+          display: block;
+        }
+      }
+
+      &.proj-skill-wrapper,
+      &.proj-desc-wrapper {
+        align-items: flex-start;
+
+        .skill-list {
+          .txt {
+            font-size: 28rpx;
+            color: rgba(0, 0, 0, 0.30);
+          }
+
+          .input-list {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .proj-skill {
+              display: inline-block;
+              width: 38%;
+              margin-top: 20rpx;
+            }
+          }
+        }
+
+        textarea {
+          min-height: 124rpx;
+        }
+
+      }
+
+      input,
+      textarea,
+      picker {
+        font-size: 28rpx;
+        width: 100%;
+        padding: 12rpx 20rpx;
+        border: 1rpx solid #000;
+        border-radius: 5rpx;
+      }
+
+      .input-placeholder {
+        font-size: 28rpx;
+        color: rgba(0, 0, 0, 0.30);
+      }
+    }
+  }
+}

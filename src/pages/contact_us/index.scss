@@ -1,1 +1,41 @@
+@import '../../sass/ripples.min.scss';
 
+.contact-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding-top: 100rpx;
+
+  .img {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 200rpx;
+    height: 200rpx;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 25rpx;
+    overflow: hidden;
+
+    image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .txt {
+    margin-top: 100rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: rgba(0, 0, 0, 0.50);
+
+    .wechat {
+      text-decoration: underline;
+      margin: 0 15rpx;
+      display: inline-block;
+    }
+
+    .tips {
+      font-size: 20rpx;
+    }
+  }
+}

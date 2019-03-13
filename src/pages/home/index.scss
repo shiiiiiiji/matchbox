@@ -18,15 +18,6 @@ page {
     background-color: #fff;
   }
 
-  .weui-tab__panel {
-    .weui-tab__content {
-      &.hidden {
-        display: none;
-      }
-    }
-  }
-
-
   .banner-wrapper {
     width: 100%;
     height: 280rpx;
@@ -43,11 +34,28 @@ page {
         width: 100%;
         height: 280rpx;
         border-radius: 15rpx;
+        background-color: #eee;
       }
     }
   }
 
+  .proj-sum {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30rpx;
+    padding-bottom: 0;
+    background-color: #fff;
+    text-align: center;
+
+    text {
+      font-size: 24px;
+      line-height: 1;
+      // text-decoration: underline;
+    }
+  }
+
   .title-bar {
+    box-sizing: border-box;
     background-color: #fff;
     width: 100%;
     height: 88px;
@@ -57,24 +65,76 @@ page {
     align-content: center;
 
     .category {
+      flex-shrink: 0;
+      flex-grow: 0;
+      margin-right: 100px;
       font-size: 32px;
       line-height: 120rpx;
       color: rgba(0, 0, 0, 0.87);
 
       &.active {
-        border-bottom: 4px solid #FFBF47;
+        // border-bottom: 4px solid #FFBF47;
+        font-size: 34px;
+        font-weight: 500;
       }
     }
 
     .school {
+      flex: 1;
+      text-align: right;
       line-height: 120rpx;
       color: #FAD389;
 
       text {
         font-size: 22px;
         color: rgba(0, 0, 0, 0.50);
+      }
+
+      .scholl-name {
         margin-right: 10px;
       }
+    }
+  }
+
+  .list {
+    .bottom-item {
+      width: 100%;
+      height: 100rpx;
+      font-size: 28rpx;
+      color: rgba(0, 0, 0, 0.5);
+      line-height: 100rpx;
+      text-align: center;
+    }
+  }
+
+  .pub-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 108px;
+    height: 108px;
+    // line-height: 108px;
+    padding: 0;
+    background-color: #FFC22C;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.20);
+    border-radius: 50%;
+    .bar{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 50px;
+      height: 8px;
+      background-color: #FFFFFF;
+      border-radius: 8px;
+      &.bar-horizontal{
+        transform: translate(-50%, -50%);
+      }
+      &.bar-vertical{
+        transform: translate(-50%, -50%) rotate(90deg);
+      }
+    }
+    &.pub-btn-hover{
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.56);
     }
   }
 

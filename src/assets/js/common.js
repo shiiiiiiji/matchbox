@@ -186,7 +186,7 @@ const common = {
   * @param {type} 
   * @return: 
   */
-	copyWeChat(v) {
+	copyWeChat(v, callback) {
 		Taro.setClipboardData({
 			data: v
 		}).then(() => {
@@ -196,6 +196,7 @@ const common = {
 				icon: 'success',
 				duration: 1200
 			}).then(res => {
+				callback && callback()
 				if (Taro.getStorageSync('MB_HAD_BOUNCE') != '1') {
 					console.log(Taro.getStorageSync('MB_HAD_BOUNCE'))
 					const appName = getGlobalData('appName')

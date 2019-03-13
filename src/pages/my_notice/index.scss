@@ -1,0 +1,96 @@
+@import '../../sass/flex';
+@import '../../sass/ripples.min.scss';
+
+.ripple {
+  animation-duration: .5s;
+}
+
+.notice-wrapper {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+
+  .weui-tab__header {
+    position: relative;
+    flex: 0 0 100rpx;
+    width: 100%;
+    height: 100rpx;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .weui-tab__panel {
+    position: relative;
+  }
+
+  .scroll-view-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .interaction,
+    .follow-me,
+    .interest {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 30rpx;
+      background-color: #fff;
+      border-bottom: 1rpx solid #ddd;
+
+      .hd {
+        justify-content: space-between;
+        align-items: center;
+
+        .user-info {
+          font-size: 28rpx;
+          color: #000000;
+
+          .user-name {
+            color: rgba(0, 0, 0, 0.50);
+            margin-right: 10rpx;
+
+            &.mid {
+              margin-left: 10rpx;
+            }
+          }
+        }
+
+        .time {
+          font-size: 22rpx;
+          color: rgba(0, 0, 0, 0.30);
+        }
+      }
+
+      .bd {
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rpx;
+
+        text {
+          font-size: 22rpx;
+          color: rgba(0, 0, 0, 0.30);
+        }
+
+        .action {
+          background: #FFBF47;
+          border-radius: 5rpx;
+          font-size: 28rpx;
+          color: #FFFFFF;
+          padding: 0 30rpx;
+          line-height: 50rpx;
+        }
+      }
+    }
+
+    .bottom-item {
+      width: 100%;
+      height: 100rpx;
+      font-size: 28rpx;
+      color: rgba(0, 0, 0, 0.5);
+      line-height: 100rpx;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import '../../sass/flex';
+
+.issue-self-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  .form-wrapper {
+    .form-item {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15rpx 30rpx;
+      font-size: 32px;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.87);
+
+      label {
+        flex: 0 0 5em;
+      }
+
+      button {
+        background-color: #FFBF47;
+      }
+
+      &.self-tips-wrapper {
+        color: rgba(0, 0, 0, 0.80);
+        text-align: center;
+        padding: 50rpx 0;
+
+        .self-tips {
+          display: block;
+        }
+      }
+
+      &.self-skill-wrapper {
+        align-items: flex-start;
+
+
+
+        .skill-list {
+          .txt {
+            font-size: 28rpx;
+            color: rgba(0, 0, 0, 0.30);
+          }
+
+          .input-list {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .self-skill {
+              display: inline-block;
+              width: 38%;
+              margin-top: 20rpx;
+            }
+          }
+
+
+        }
+      }
+
+      input,
+      picker {
+        font-size: 28rpx;
+        width: 100%;
+        padding: 12rpx 20rpx;
+        border: 1rpx solid #000;
+        border-radius: 5rpx;
+      }
+
+      .input-placeholder {
+        font-size: 28rpx;
+        color: rgba(0, 0, 0, 0.30);
+      }
+    }
+  }
+}

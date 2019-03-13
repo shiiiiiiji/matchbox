@@ -4,17 +4,17 @@
   .user-info {
     box-sizing: border-box;
     width: 100%;
-    height: 500px;
+    height: 250px;
     background-color: #ffd004;
-    padding-top: 50px;
+    padding-top: 25px;
 
-    .user-avatar {
-      margin: 0 auto;
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      overflow: hidden; // 这样圆角才有效
-    }
+    // .user-avatar {
+    //   margin: 0 auto;
+    //   width: 160px;
+    //   height: 160px;
+    //   border-radius: 50%;
+    //   overflow: hidden; // 这样圆角才有效
+    // }
 
     .user-name {
       margin-top: 25px;
@@ -60,13 +60,13 @@
 
         .icon-wrapper {
           margin-right: 20rpx;
-          width: 36rpx;
-          height: 36rpx;
+          width: 40rpx;
+          height: 40rpx;
           background-color: #FFBF47;
-          font-size: 18rpx;
+          font-size: 20rpx;
           color: #fff;
           text-align: center;
-          line-height: 36rpx;
+          line-height: 40rpx;
           border-radius: 50%;
           box-sizing: border-box;
           padding-left: 1rpx;
@@ -75,6 +75,21 @@
         .txt {
           font-size: 32rpx;
           color: rgba(0, 0, 0, 0.87);
+        }
+
+        .unread-msg{
+          display: inline-block;
+          box-sizing: border-box;
+          min-width: 30px;
+          padding: 0 8px;
+          height: 30px;
+          border-radius: 30px;
+          background-color: #E30000;
+          font-size: 20px;
+          color: #FFFFFF;
+          text-align: center;
+          line-height: 30px;
+          margin-left: 5px;
         }
       }
     }

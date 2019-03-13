@@ -1,0 +1,61 @@
+@import '../../sass/flex';
+@import '../../sass/common';
+
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+}
+
+.tags-wrapper{
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	.tag-item-wrapper{
+		box-sizing: border-box;
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+		padding-left: 30px;
+		&.no-select{
+			background-color: #eee;
+		}
+	}
+	.tag-item{
+		height: 100px;
+		box-sizing: border-box;
+		border-bottom: 1PX solid #eee;
+		
+		.tag-txt{
+			font-size: 32px;
+			color: rgba(0,0,0,0.87);
+		}
+
+		.icon-wrapper{
+			display: inline-block;
+			margin-right: 10px;
+			width: 32px;
+			height: 32px;
+			// background-color: #FFBF47;
+			font-size: 32px;
+			color: #FFBF47;
+			text-align: center;
+			line-height: 32px;
+			// border-radius: 50%;
+			box-sizing: border-box;
+			padding-left: 1rpx;
+			&.arrow-icon{
+				color: rgba(0, 0, 0, 0.26);
+			}
+		}
+	}
+
+	.bottom-item {
+		width: 100%;
+		height: 100rpx;
+		font-size: 28rpx;
+		color: rgba(0, 0, 0, 0.5);
+		line-height: 100rpx;
+		text-align: center;
+	}
+}

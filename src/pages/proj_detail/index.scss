@@ -1,0 +1,24 @@
+@import '../../sass/flex';
+
+.proj-detail-wrapper {
+  .read-tip {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50rpx;
+    background-color: #FFBF47;
+    padding: 0 30rpx;
+    font-size: 28rpx;
+    align-items: center;
+  }
+
+  .btn-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20rpx 30rpx;
+    text-align: right;
+    background-color: #fff;
+    border-top: 1rpx dashed #eee;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

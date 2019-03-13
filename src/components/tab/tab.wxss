@@ -33,6 +33,13 @@
   text-align: center;
 }
 
+.weui-navbar__title text{
+  display: inline-block;
+  height: 56rpx;
+  line-height: 56rpx;
+  color: rgba(0,0,0, 0.87);
+}
+
 .weui-bar__border {
   margin: 0 auto;
   width: 80%;
@@ -41,6 +48,7 @@
   border-radius: 4rpx;
 }
 
-.weui-bar__item_on {
-  /* font-weight: bold; */
+.weui-bar__item_on text{
+  color: #000;
 }
+
